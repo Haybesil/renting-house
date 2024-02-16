@@ -156,7 +156,7 @@ section .flex div {
     background-color: #0D4512E5;
     color: #fff;
     border-radius: 10px;
-    height: 350px;
+    height: 300px;
     width: 300px;
 }
 
@@ -238,7 +238,7 @@ article .flex div {
     margin-inline: 6vw;
     padding-top: 20px;
     border-radius: 10px 60px 10px 60px;
-    height: 250px;
+    height: 300px;
 }
 
 article .flex div img {
@@ -252,10 +252,11 @@ article .flex h2 {
    font-family: "Poppins";
    font-size: 33px;
    font-weight: 700;
-   line-height: 52px;
+   line-height: 32px;
    letter-spacing: 0em;
    text-align: center;
    color: #26582AE0;
+   padding-top: 30px;
 }
 
 article .flex p {
@@ -264,6 +265,8 @@ article .flex p {
     font-weight: 500;
     line-height: 20px;
     text-align: center;
+    padding-top: 20px;
+    margin-inline: 2vw;
     
 }
 
