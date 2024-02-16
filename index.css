@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 6vw;
+    margin-top: 40px; 
+}
+
+nav img {
+    width: 280px;
+    height: 62px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    font-family: "Roboto" sans-serif;
+    color: #26582A;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    list-style: none;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    
+}
+
+main  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+    margin-inline: 6vw;
+    
+}
+
+main div {
+    height: 640px;
+    margin-top: 40px;
+    
+} 
+
+main div:nth-child(1) {
+    padding-top: 100px;
+}
+
+main h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: #0D4512;
+
+}
+
+main  p {
+    font-family: "Poppins" sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 40px;
+}
+
+main div:nth-child(1) form {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+main div:nth-child(1) input {
+    padding: 15px 25px ;
+    border-radius: 50px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+main div:nth-child(1) input:nth-child(1) {
+    background-color: #0D4512;;
+    border: none;
+    color: #fff;
+}
+
+main div:nth-child(1) input:nth-child(2) {
+    border: 1px solid #000;
+}
+
+main div:nth-child(2) img {
+     height: 550px;
+     width: 100%;
+}
+
+main div:nth-child(3) {
+    /* position: relative;
+    top: 40px; */
+}
+main div:nth-child(3) img {
+    height: 450px;
+    width: 100%;
+}
+
+main div:nth-child(4) {
+   position: relative;
+   bottom: 100px;
+}
+
+main div:nth-child(4) input {
+    padding: 15px 25px ;
+    border-radius: 50px;
+    font-family: "Outfit";
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #0D4512;;
+    border: none;
+    color: #fff;
+    position: relative;
+    top: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+section .column {
+    display: flex;
+    flex-direction: column;
+}
+
+section .column h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: #0D4512;
+}
+
+section .column > p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+section .flex div {
+    background-color: #0D4512E5;
+    color: #fff;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+section .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+    margin-inline: 6vw;
+    padding-top: 60px;
+}
+
+section .flex img {
+    width: 65px;
+    height: 65px;
+    padding-top: 30px;
+
+}
+
+section .flex h2 {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 66px;
+    
+}
+
+section .flex p {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-inline: 2vw;
+    margin-top: 5px;
+}
+
+
+
+
+
+article {
+    text-align: center;
+    padding-top: 150px;
+}
+
+article .column {
+    display: flex;
+    flex-direction: column;
+}
+
+article .column h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #0D4512;
+    margin-inline: 30vw;
+}
+
+article .column p {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+}
+
+article .flex {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+
+    /* border: 2px solid green; */
+}
+
+article .flex div {
+    border: 4px solid #26582A;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-inline: 6vw;
+    padding-top: 20px;
+    border-radius: 10px 60px 10px 60px;
+    height: 250px;
+}
+
+article .flex div img {
+    width: 80px;
+    height: 80px;
+
+
+}
+
+article .flex h2 {
+   font-family: "Poppins";
+   font-size: 33px;
+   font-weight: 700;
+   line-height: 52px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: #26582AE0;
+}
+
+article .flex p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+footer.footer-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline: 6vw;
+    margin-top: 100px;
+}
+
+footer.footer-1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+footer.footer-1 div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+footer.footer-1 div ul li {
+    list-style: none;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+footer.footer-1 div h2 {
+    font-family: "Inter";
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: #0D4512;
+}
+
+footer.footer-1 div.two ul li {
+    padding-right: 50px;
+    text-align: center;
+}
+
+footer.footer-1 div.three h2, footer div.four h2{
+      padding-left: 30px;
+}
+
+.footer-2 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-inline: 6vw;
+    gap: 45px;
+    margin-top: 80px;
+}
+
+footer.footer-2 .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.socials i {
+    margin-bottom: 30px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.socials i:hover {
+    color: green;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/* footer.footer-2 .socials img {
+    height: 20px;
+}
+
+footer.footer-2 .socials .green {
+    background-color: green;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+footer.footer-2 .socials .colorless {
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 50%
+} */
+
+.footer-2 .copyright p {
+    text-align: center;
+}
